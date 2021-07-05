@@ -66,6 +66,7 @@ import { AuditAllocationComponent } from './audit-allocation/audit-allocation.co
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { KnobModule } from 'primeng/knob';
 import { IsNaNPipe } from './pipe/is-na-n.pipe';
+import { BasicContactDetail } from './model/BasicContactDetail';
 
 
 @NgModule({
@@ -96,7 +97,8 @@ import { IsNaNPipe } from './pipe/is-na-n.pipe';
     JobDialogComponent,
     AuditFormComponent,
     AuditAllocationComponent,
-    IsNaNPipe
+    IsNaNPipe,
+	BasicContactDetail
   ],
   imports: [
     BrowserModule,
